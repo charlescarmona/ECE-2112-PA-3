@@ -4,7 +4,7 @@
 
 The content of this repository contains Experiment 3 for the course "Advanced Computer Programming and Algorithms" this S.Y. 2026-2027. This experiment focuses on Python Data Analysis using Pandas, particularly loading datasets, selecting rows and columns, and filtering specific data from a DataFrame.
 
-# *A. POSITIONAL AND LABEL-BASED SLICING*
+# **A. POSITIONAL AND LABEL-BASED SLICING**
 
 This problem loads the cars.csv dataset into a Pandas DataFrame and displays its shape and column names. It also selects rows 6 to 10 using positional slicing and displays only the specified columns.
 
@@ -43,7 +43,7 @@ Selected_cars = cars_6_to_10[['Model', 'mpg', 'cyl', 'hp', 'gear']]
 Selected_cars
 ```
 
-# *B. MODEL LOOKUP*
+# **B. MODEL LOOKUP**
 
 This problem uses Boolean indexing to locate specific car models from the dataset without using their row numbers. It first displays the complete information for the Toyota Corolla and then displays only the Model, mpg, hp, and wt columns for the Pontiac Firebird.
 
@@ -71,7 +71,7 @@ pontiac = cars[cars['Model'] == 'Pontiac Firebird'][pontiac_columns]
 pontiac
 ```
 
-# *C. MULTI-MODEL SUBSETTING*
+# **C. MULTI-MODEL SUBSETTING**
 
 This problem creates a new DataFrame containing only three specified car models: Datsun 710, Lotus Europa, and Ferrari Dino. It also retains only the Model, mpg, cyl, hp, and gear columns. The final shape of the DataFrame is checked to make sure that it contains exactly three rows and five columns.
 
@@ -104,9 +104,9 @@ I APPRECIATE FOR TAKING THE TIME TO READ THIS
 
 Click the link below to see the full main Python program:
 
-*[INSERT YOUR GITHUB LINK HERE]*
+https://github.com/charlescarmona/ECE-2112-PA-3/blob/main/CARMONA_2ECE_B_PA3.ipynb
 
-# *Readme File Version History:*
+# **Readme File Version History:**
 
 September 10, 2026 - initial Readme Content uploaded
 
